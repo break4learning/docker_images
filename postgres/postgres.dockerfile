@@ -5,4 +5,4 @@ ENV POSTGRES_USER=admin
 ENV POSTGRES_PASSWORD=admin123
 ENV POSTGRES_DB=mi_base_datos
 # Copiar scripts de inicialización al contenedor
-COPY init.sql /docker-entrypoint-initdb.d/
+COPY ./init-scripts /docker-entrypoint-initdb.d/
