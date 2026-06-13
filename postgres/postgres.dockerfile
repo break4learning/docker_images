@@ -1,5 +1,7 @@
+# image: postgres
 # Usar la imagen oficial de PostgreSQL
 FROM postgres:latest
+LABEL image.name="postgres"
 # Configurar variables de entorno
 ENV POSTGRES_USER=admin
 ENV POSTGRES_PASSWORD=admin123
