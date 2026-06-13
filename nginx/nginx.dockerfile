@@ -1,3 +1,4 @@
 # image: nginx
 FROM nginx:latest
-EXPOSE 80
+LABEL image.name="nginx"
+EXPOSE 81
