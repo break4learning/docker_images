@@ -1,4 +1,3 @@
-# image: postgres
 # Usar la imagen oficial de PostgreSQL
 FROM postgres:latest
 LABEL image.name="postgres"
