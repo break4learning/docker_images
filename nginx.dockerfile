@@ -1,3 +1,3 @@
-# image: mi-nginx:latest
+# image: nginx
 FROM nginx:latest
 EXPOSE 80
